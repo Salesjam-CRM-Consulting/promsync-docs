@@ -29,6 +29,7 @@ Published by **Salesjam**.
 </div>
 
 ## Edition compatibility
+{: #edition-compatibility }
 
 | Feature | Minimum Zoho CRM edition |
 |---------|--------------------------|

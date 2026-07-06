@@ -35,7 +35,7 @@ You agree to:
 
 ## 4. Data processing
 
-Data processing is described in the [Privacy Policy](/privacy/). You are responsible for ensuring you have lawful grounds to sync buyer/client data from Prom.ua into CRM.
+Data processing is described in the [Privacy Policy]({{ '/privacy/' | relative_url }}). You are responsible for ensuring you have lawful grounds to sync buyer/client data from Prom.ua into CRM.
 
 ---
 
