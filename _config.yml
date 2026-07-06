@@ -4,7 +4,7 @@ description: Documentation for the PromSync for Zoho CRM extension by Salesjam
 # Project Pages: https://YOUR_ORG.github.io/REPO_NAME/
 # Replace REPO_NAME with your GitHub repo name (e.g. promsync-docs)
 baseurl: "/promsync-docs"
-url: "https://Salesjam-CRM-Consulting.github.io"
+url: "https://salesjam-crm-consulting.github.io"
 
 theme: null
 markdown: kramdown

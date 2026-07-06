@@ -7,7 +7,7 @@ This extension syncs orders, clients, and products from [Prom.ua](https://prom.u
 | Item | Details |
 |------|---------|
 | **Prom.ua account** | Active seller account with API token from the Prom seller cabinet |
-| **Zoho CRM edition** | Standard or higher (see [Edition compatibility]({{ '/' | relative_url }}#edition-compatibility)) |
+| **Zoho CRM edition** | Standard or higher (see [Edition compatibility](../#edition-compatibility)) |
 | **Inventory module** | Required only if you sync to **Sales Orders** with line items or sync **Products** |
 | **One-time Zoho authorization** | Grants the extension permission to write CRM data in the background (scheduled sync) |
 
@@ -140,5 +140,6 @@ Use **Contact support** in the widget (Settings → PromSync for Zoho CRM). You 
 
 ## Related documents
 
-- [Privacy Policy]({{ '/privacy/' | relative_url }})
-- [Terms of Service]({{ '/terms/' | relative_url }})
+- [Privacy Policy](../privacy/)
+- [Terms of Service](../terms/)
+- [Інструкція українською](../help-uk/)

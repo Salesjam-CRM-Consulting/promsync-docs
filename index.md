@@ -12,8 +12,13 @@ Published by **Salesjam**.
 <div class="card-grid">
 
 <a class="card" href="{{ '/help/' | relative_url }}">
-  <strong>User guide</strong>
+  <strong>User guide (EN)</strong>
   <span>Setup, sync modes, background sync, FAQ</span>
+</a>
+
+<a class="card" href="{{ '/help-uk/' | relative_url }}">
+  <strong>Інструкція (UA)</strong>
+  <span>Підключення, синхронізація, FAQ українською</span>
 </a>
 
 <a class="card" href="{{ '/privacy/' | relative_url }}">
