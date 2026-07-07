@@ -49,6 +49,8 @@ There is no “sync all orders ever” mode — only these two options.
 
 Without the checkbox, new clients/products that never appear in an order will only sync when Prom marks them as changed (background incremental sync) or when you run a full catalog scan.
 
+> **First run.** Until a sync has ever completed (`last_sync` is empty), an incremental catalog has no baseline to compare against. So on the **first** run **without the checkbox**, the standalone catalog pass is **skipped** — only orders in the selected scope and their related contacts/products are synced. To import the whole catalog right away, enable **Full catalog scan**. After the first successful sync, incremental catalog sync works automatically.
+
 ### Sync Now
 
 Runs sync immediately with the selected options. When finished, the widget shows counts of created/updated orders, contacts, and products.
@@ -142,4 +144,5 @@ Use **Contact support** in the widget (Settings → PromSync for Zoho CRM). You 
 
 - [Privacy Policy](../privacy/)
 - [Terms of Service](../terms/)
+
 - [Інструкція українською](../help-uk/)
