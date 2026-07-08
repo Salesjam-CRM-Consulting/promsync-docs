@@ -38,6 +38,18 @@ If the token is invalid, you will see:
 
 There is no “sync all orders ever” mode — only these two options.
 
+### Custom order module (important)
+
+If you map orders into a **custom CRM module** (not Deals / Sales Orders), add these fields in that module:
+
+| API name | Type | Notes |
+|---|---|---|
+| `Prom_Order_ID` | Single Line (Text) | Search/unique is recommended |
+| `Prom_Status` | Single Line (Text) or Picklist | Prom order status |
+| `Connection` | Lookup → `Prom Connections` | Recommended; if absent, sync continues without it |
+
+Without these fields, sync cannot perform reliable order upsert in a custom module.
+
 ### Full catalog scan (checkbox)
 
 **Full catalog scan — all products & clients from Prom**
@@ -97,7 +109,6 @@ If sync takes longer than the Zoho CRM widget limit (~30–45 seconds), you may 
 
 This is **not a sync failure** — processing may continue on the server. Refresh after a minute and check CRM records and **Prom Sync Logs**.
 
-Technical errors such as *Execution Time Exceeded* are not shown to end users.
 
 ---
 

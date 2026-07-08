@@ -37,6 +37,18 @@
 
 Режиму «всі замовлення» немає — лише ці два варіанти.
 
+### Кастомний модуль замовлень (важливо)
+
+Якщо як Order module ви обрали **власний кастомний модуль** (не Deals / Sales Orders), додайте в ньому поля:
+
+| API name | Тип | Примітка |
+|---|---|---|
+| `Prom_Order_ID` | Single Line (Text) | Бажано увімкнути search / unique |
+| `Prom_Status` | Single Line (Text) або Picklist | Статус із Prom |
+| `Connection` | Lookup → `Prom Connections` | Рекомендовано; якщо поля немає, sync продовжить роботу без нього |
+
+Без цих полів sync у кастомний модуль не зможе коректно робити upsert замовлень.
+
 ### Повний каталог Prom (галочка)
 
 **Full catalog scan — all products & clients from Prom**
