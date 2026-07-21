@@ -38,9 +38,9 @@ Published by **Salesjam**.
 
 | Feature | Minimum Zoho CRM edition |
 |---------|--------------------------|
-| Deals + Contacts sync | **Standard** |
-| Lookup fields on standard modules | **Professional** |
-| Sales Orders with line items | **Professional** + **Inventory** |
-| Products + stock sync | **Professional** + **Inventory** |
+| Deals + Contacts sync | **Enterprise or Zoho One** |
+| Lookup fields on standard modules | **Enterprise or Zoho One** |
+| Sales Orders with line items | **Professional** + **Enterprise or Zoho One** |
+| Products + stock sync | **Enterprise or Zoho One** |
 
 **External account required:** active Prom.ua seller account with API token.
